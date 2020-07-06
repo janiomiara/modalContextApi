@@ -1,8 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Projeto
 
-In the project directory, you can run:
+Projeto de Modal simples utilizando Context Api para abrir e fechar modal
+
+## Demonstração do Projeto
+
+https://modalcontextapi.surge.sh/
+
+### `Tecnologias Utilizadas`
+
+[![alt text](./public/context.png 'Link para o treinamento')]
+[![alt text](./public/logo_styled.jpeg 'Link para o treinamento')]
+[![alt text](./public/reactjs.jpg 'Link para o treinamento')]
 
 ### `yarn start`
 
