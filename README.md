@@ -12,6 +12,7 @@ https://modalcontextapi.surge.sh/
 
 [![alt text](./public/context.png 'Link para o treinamento')]
 [![alt text](./public/logo_styled.jpeg 'Link para o treinamento')]
+[![alt text](./public/surge.png 'Link para o treinamento')]
 [![alt text](./public/reactjs.jpg 'Link para o treinamento')]
 
 ### `yarn start`
