@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
+
+import ReactDOM from 'react-dom';
 import * as S from './styles';
 import { ModalContext } from './Context';
 
 const Modal = () => {
   const { modal, setShowModal } = useContext(ModalContext);
-  return (
+  return ReactDOM.createPortal(
     <>
       {modal && (
         <>
@@ -40,7 +42,8 @@ const Modal = () => {
           </S.Container>
         </>
       )}
-    </>
+    </>,
+    document.querySelector('#root'),
   );
 };
 
